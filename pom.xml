@@ -17,6 +17,7 @@
         <module>Netty</module>
         <module>Zookeeper</module>
         <module>Spring</module>
+        <module>EffectiveJava</module>
     </modules>
 
     <properties>
