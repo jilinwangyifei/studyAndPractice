@@ -3,7 +3,6 @@ package Chapter8.Item46;// Can you spot the bug? - Page 46
 import java.util.*;
 
 enum Suit { CLUB, DIAMOND, HEART, SPADE }
-
 enum Rank { ACE, DEUCE, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT,
             NINE, TEN, JACK, QUEEN, KING }
 
