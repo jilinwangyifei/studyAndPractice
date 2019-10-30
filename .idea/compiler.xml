@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="DataStructure" />
+        <module name="EffectiveJava" />
+        <module name="HighConcurreny" />
+        <module name="jvminaction" />
+        <module name="Netty" />
+        <module name="Spring" />
+        <module name="thinkinjava" />
+        <module name="Zookeeper" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.7">
+      <module name="DataStructure" target="1.8" />
+      <module name="EffectiveJava" target="1.5" />
+      <module name="HighConcurreny" target="1.8" />
+      <module name="jvminaction" target="1.5" />
+      <module name="Netty" target="1.8" />
+      <module name="Spring" target="1.5" />
+      <module name="study-and-practice" target="1.5" />
+      <module name="thinkinjava" target="1.8" />
+      <module name="Zookeeper" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
+  </component>
+</project>
