@@ -1,0 +1,23 @@
+/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/.mvn/
+### 自定义 ###
+/log/
+
+/car-rest/target/
+/car-service/target/
+.DS_Store
