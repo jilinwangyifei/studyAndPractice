@@ -31,7 +31,6 @@ public class Stack {
      */
 
 
-    //todo 疑问 为什么进行垃圾回收了 书上例子说并没有P31
     //参数 -XX:+PrintGC
     static void localVarGc(){
         byte[] b = new byte[6*1024*1024];
