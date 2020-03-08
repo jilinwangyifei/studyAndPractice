@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.Random;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutorService;
+import java.util.stream.Stream;
+
 import static java.util.stream.Collectors.toList;
 
 public class Test11_4 {
@@ -32,6 +34,20 @@ public class Test11_4 {
                 .collect(toList());
 
         return priceFutures.stream().map(CompletableFuture::join).collect(toList());
+    }
+
+    //11.4.3 构造同步he异步操作
+    public Stream<CompletableFuture<String>> findPricesStream(String product) {
+       return shops.stream()
+                        .map(shop ->
+                                CompletableFuture.supplyAsync(
+                                        () -> shop.getPrice(product), ex)
+                        )
+                        .map(future -> future.thenApply(Quote::parse))
+                        .map(future -> future.thenCompose(
+                                quote -> CompletableFuture.supplyAsync(
+                                        () -> Discount.applyDiscount(quote), ex)));
+
     }
 
     //11.4.4 将两个CompletableFuture整合起来无论他们是否有依赖
