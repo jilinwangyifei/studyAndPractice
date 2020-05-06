@@ -16,8 +16,6 @@
         <module>jvminaction</module>
         <module>Netty</module>
         <module>Spring</module>
-        <module>EffectiveJava</module>
-        <module>Compile</module>
         <module>Compile</module>
     </modules>
 
@@ -26,11 +24,7 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>javassist</groupId>
-            <artifactId>javassist</artifactId>
-            <version>3.3</version>
-        </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -52,12 +46,6 @@
             <groupId>javassist</groupId>
             <artifactId>javassist</artifactId>
             <version>3.3</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>22.0</version>
         </dependency>
 
         <dependency>

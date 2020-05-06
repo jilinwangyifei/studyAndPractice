@@ -1,10 +1,8 @@
 package Java8.Chapter11;
 
-import com.sun.xml.internal.ws.util.CompletedFuture;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Future;
-import java.util.function.DoubleUnaryOperator;
 
 public class Test11_2 {
 
