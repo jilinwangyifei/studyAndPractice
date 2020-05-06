@@ -57,4 +57,11 @@ public class MyClassLoader extends ClassLoader {
         sb.append(File.separator + name);
         return sb.toString();
     }
+
+    public static void main(String[] args) {
+        for (int uid = 0; uid < 1000; uid++) {
+            System.out.println(uid+",库"+ ((uid / 10) % 8 + 1) +"表"+ uid % 10 +",新库"+ ((uid / 10) % 16 + 1)+"表"+uid % 10);
+        }
+
+    }
 }

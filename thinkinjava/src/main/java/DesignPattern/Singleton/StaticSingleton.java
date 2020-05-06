@@ -17,4 +17,8 @@ public class StaticSingleton {
         return SingletonHolder.staticSingleton;
     }
 
+    public static void main(String[] args) {
+        getInstance();
+    }
+
 }

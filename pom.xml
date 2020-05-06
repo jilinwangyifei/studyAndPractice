@@ -15,9 +15,10 @@
         <module>HighConcurreny</module>
         <module>jvminaction</module>
         <module>Netty</module>
-        <module>Zookeeper</module>
         <module>Spring</module>
         <module>EffectiveJava</module>
+        <module>Compile</module>
+        <module>Compile</module>
     </modules>
 
     <properties>

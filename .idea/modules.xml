@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DataStructure/DataStructure.iml" filepath="$PROJECT_DIR$/DataStructure/DataStructure.iml" />
-      <module fileurl="file://$PROJECT_DIR$/EffectiveJava/EffectiveJava.iml" filepath="$PROJECT_DIR$/EffectiveJava/EffectiveJava.iml" />
-      <module fileurl="file://$PROJECT_DIR$/EffectiveJava/EffectiveJava.iml" filepath="$PROJECT_DIR$/EffectiveJava/EffectiveJava.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HighConcurreny/HighConcurreny.iml" filepath="$PROJECT_DIR$/HighConcurreny/HighConcurreny.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Netty/Netty.iml" filepath="$PROJECT_DIR$/Netty/Netty.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Spring/Spring.iml" filepath="$PROJECT_DIR$/Spring/Spring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Zookeeper/Zookeeper.iml" filepath="$PROJECT_DIR$/Zookeeper/Zookeeper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jvminaction/jvminaction.iml" filepath="$PROJECT_DIR$/jvminaction/jvminaction.iml" />
-      <module fileurl="file://$PROJECT_DIR$/study-and-practice.iml" filepath="$PROJECT_DIR$/study-and-practice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/thinkinjava/thinkinjava.iml" filepath="$PROJECT_DIR$/thinkinjava/thinkinjava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Compile/Compile.iml" filepath="$PROJECT_DIR$/Compile/Compile.iml" />
     </modules>
   </component>
 </project>
